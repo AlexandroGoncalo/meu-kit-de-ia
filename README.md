@@ -54,34 +54,142 @@ Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal 
 
 ### Minha Tarefa Real
 
-_Qual tarefa da sua semana você escolheu e por que ela vale a pena?_
+Escolhi como tarefa real utilizar a inteligência artificial para pesquisar e estudar HTML semântico, um conteúdo importante para minha formação em desenvolvimento web.
+
+O objetivo foi compreender a função dos principais elementos semânticos do HTML e aplicar os conhecimentos adquiridos na criação de uma página web demonstrativa.
+
+Essa atividade foi relevante porque permitiu integrar o estudo teórico à prática, utilizando o ChatGPT para organizar informações, esclarecer dúvidas e orientar a construção do projeto.
+
+Durante a execução, utilizei o Visual Studio Code e o Live Server para visualizar a página no navegador e verificar seu funcionamento.
 
 ### Meus Atalhos
 
-_Conte quais modelos do kit você adaptou, o que ficou fixo e o que muda a cada uso._
+Adaptei dois modelos do kit original da DIO para apoiar meus estudos de desenvolvimento web: o prompt "Pesquisar um Assunto com IA" e o template "Pesquisa e Decisão".
+
+O primeiro permite pesquisar conceitos de HTML, consultar fontes confiáveis e compreender exemplos práticos. O segundo ajuda a comparar elementos HTML e decidir qual utilizar em diferentes situações.
+
+As instruções de pesquisa, verificação de fontes e análise permanecem fixas. O que muda a cada utilização é o assunto estudado, os elementos comparados e o contexto da aplicação.
 
 ```text
-Cole aqui o seu primeiro atalho, já adaptado.
+Quero pesquisar [elemento ou conceito de HTML] para compreender quando e por que utilizá-lo em páginas web.
+
+1. Explique o conceito de forma clara para um estudante iniciante de desenvolvimento web.
+2. Diferencie fatos documentados, recomendações práticas e situações que dependem do contexto.
+3. Consulte a documentação MDN e, quando necessário, a especificação WHATWG HTML.
+4. Apresente um exemplo simples de código HTML e explique seu funcionamento.
+5. Identifique erros comuns e boas práticas.
+6. Resuma o que foi aprendido e o que ainda precisa ser verificado.
+
+Formato: explicação, exemplo de código, referências e checklist de revisão.
+Não invente fontes nem afirme que o código foi testado sem realizar testes.
 ```
 
 ```text
-Cole aqui o seu segundo atalho, já adaptado.
+PERGUNTA
+Entre [elemento HTML A] e [elemento HTML B], qual representa melhor [tipo de conteúdo]?
+
+PESQUISA
+Consulte a documentação MDN e a especificação WHATWG HTML para compreender a finalidade de cada elemento.
+
+FONTES
+Apresente referências confiáveis com links e destaque as informações que sustentam a comparação.
+
+CRITÉRIOS
+- Significado semântico
+- Função na estrutura da página
+- Independência do conteúdo
+- Boas práticas de acessibilidade
+
+COMPARAÇÃO
+Organize as diferenças em uma tabela e apresente exemplos práticos de utilização.
+
+DECISÃO
+Recomende o elemento mais adequado ao contexto, justifique sua escolha e indique quando a alternativa poderia ser utilizada.
+
+Não invente informações nem apresente recomendações sem justificativa.
 ```
 
 ### Minha Delegação
 
 ```text
-Cole aqui o pedido que você entregou à IA, com objetivo, contexto, recursos, limites e sucesso.
+TAREFA: Pesquisa e criação de material didático sobre HTML semântico.
+
+OBJETIVO:
+Pesquisar os principais elementos semânticos do HTML e criar uma página demonstrativa para apoiar meus estudos de desenvolvimento web.
+
+CONTEXTO:
+Sou estudante de desenvolvimento web e estou aprendendo a estruturar páginas utilizando HTML. Preciso compreender a finalidade dos elementos semânticos e suas aplicações práticas.
+
+RECURSOS:
+- ChatGPT para pesquisa e organização do conteúdo.
+- Documentação MDN como referência.
+- Visual Studio Code para visualizar e analisar o código.
+- Live Server para executar os testes no navegador.
+
+LIMITES:
+- Utilizar HTML puro, sem frameworks.
+- Apresentar explicações acessíveis para iniciantes.
+- Não inventar fontes ou resultados de testes.
+- Não publicar arquivos ou modificar repositórios sem minha autorização.
+
+PLANO:
+Antes de executar, apresentar as etapas da pesquisa, criação da página e verificação do resultado.
+
+CRITÉRIOS DE SUCESSO:
+- Explicação dos principais elementos semânticos.
+- Página HTML demonstrativa funcionando no navegador.
+- Navegação interna entre as seções.
+- Link para documentação oficial.
+- Resultado revisado e documentado para entrega no desafio da DIO.
 ```
 
 ### O Plano da IA
 
-_Cole o print do plano e conte o que você ajustou antes de a IA começar._
+O ChatGPT apresentou um plano de execução antes do desenvolvimento da atividade, organizando o trabalho nas seguintes etapas:
+
+1. Pesquisar os principais elementos semânticos do HTML em fontes confiáveis, como a documentação MDN.
+2. Explicar as funções dos elementos `header`, `nav`, `main`, `section`, `article`, `aside` e `footer`.
+3. Criar uma página HTML demonstrativa, sem utilizar frameworks ou bibliotecas externas.
+4. Verificar o código produzido e realizar testes de funcionamento no navegador.
+5. Documentar o processo, os resultados e os aprendizados no repositório do GitHub.
+
+**Acompanhamento e ajustes:** durante a execução, acompanhei o desenvolvimento e solicitei esclarecimentos sobre o funcionamento dos links internos da página. Após as explicações, realizei novos testes com o zoom do navegador aumentado e confirmei que a navegação entre as seções funcionava corretamente.
+
+O processo demonstrou a importância de acompanhar a execução da IA e verificar os resultados antes de considerá-los concluídos.
+
+<img width="756" height="293" alt="image" src="https://github.com/user-attachments/assets/35d904b8-232a-47bf-9e39-4718f3505a74" />
+
 
 ### O Resultado
 
-_Cole o print do resultado e conte como você conferiu antes de usar._
+A tarefa delegada ao ChatGPT resultou na criação de um material introdutório sobre HTML semântico e de uma página web demonstrativa intitulada **Guia de HTML Semântico**.
+
+A página foi desenvolvida utilizando HTML, sem frameworks, e apresenta uma estrutura organizada com título, menu de navegação, seções explicativas, exemplo de conteúdo independente e referência à documentação MDN.
+
+**Testes realizados:**
+
+1. Abri o arquivo `index.html` no Visual Studio Code e executei a página utilizando o Live Server.
+2. Confirmei que os títulos, textos e links estavam sendo exibidos corretamente no navegador.
+3. Testei o link **Conceito** e verifiquei que o navegador direcionava para `#conceito`.
+4. Testei o link **Exemplos** e confirmei o direcionamento para `#exemplos`.
+5. Aumentei o zoom do navegador para observar o deslocamento da página entre as seções.
+6. Acessei o link externo da documentação MDN e confirmei que a página de referência abriu corretamente.
+
+**Resultado da verificação:**
+
+Os testes de carregamento e navegação foram concluídos com sucesso. Inicialmente, tive dúvidas porque os links internos modificavam o endereço sem apresentar uma mudança visual evidente. Após receber uma explicação sobre âncoras HTML e realizar novos testes, compreendi seu funcionamento.
+
+A experiência demonstrou a importância de conferir o código gerado pela inteligência artificial e validar seu comportamento na prática, em vez de considerar o resultado correto apenas porque a página foi criada.
+
+<img width="800" height="394" alt="image" src="https://github.com/user-attachments/assets/937660c6-dd64-4524-99cc-d50d3f09a9fe" />
+
 
 ### Como Foi para Você
 
-_Conte em poucas linhas o que mudou no seu dia a dia._
+A utilização do ChatGPT como ferramenta de apoio ao aprendizado de programação tem sido bastante positiva. A inteligência artificial facilita o acesso a informações, esclarece dúvidas e oferece orientações sobre boas práticas de desenvolvimento.
+
+Durante este desafio, pude ampliar meus conhecimentos sobre HTML semântico e compreender melhor a importância de utilizar cada elemento HTML de acordo com sua função.
+
+Um dos principais benefícios foi a possibilidade de esclarecer dúvidas durante a execução da atividade, recebendo explicações que contribuíram para minha compreensão dos conceitos estudados.
+
+Essa experiência reforçou minha percepção de que a inteligência artificial pode ser uma importante aliada na formação de desenvolvedores, desde que seja utilizada como ferramenta de apoio ao aprendizado, e não apenas para gerar códigos ou respostas prontas.
