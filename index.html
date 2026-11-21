@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página didática sobre a estrutura semântica do HTML.">
+  <title>Guia de HTML Semântico</title>
+</head>
+<body>
+  <header>
+    <h1>Guia de HTML Semântico</h1>
+    <p>Um exemplo simples de estrutura de página.</p>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#conceito">Conceito</a></li>
+        <li><a href="#exemplos">Exemplos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="conceito" aria-labelledby="titulo-conceito">
+      <h2 id="titulo-conceito">O que é HTML semântico?</h2>
+      <p>É o uso de elementos HTML de acordo com o significado do conteúdo.</p>
+    </section>
+
+    <section id="exemplos" aria-labelledby="titulo-exemplos">
+      <h2 id="titulo-exemplos">Exemplos de conteúdo</h2>
+      <article>
+        <h3>Por que usar article?</h3>
+        <p>Um artigo reúne conteúdo que pode fazer sentido de forma independente.</p>
+      </article>
+    </section>
+
+    <aside aria-labelledby="titulo-leitura">
+      <h2 id="titulo-leitura">Leitura complementar</h2>
+      <p><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements">Referência de elementos HTML na MDN</a>.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Material de estudo criado para o desafio Meu Kit de IA.</p>
+  </footer>
+</body>
+</html>
